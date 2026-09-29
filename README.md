@@ -1,4 +1,4 @@
-# class-demo
+# Personal Portfolio
 This is used to be a class demo
 Now I am changing it to be my main portfolio site!
 
