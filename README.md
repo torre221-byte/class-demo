@@ -1,7 +1,14 @@
 # Personal Portfolio
-This is used to be a class demo
-Now I am changing it to be my main portfolio site!
+
+This started as a class demo. Now I am turning it into my main portfolio site.
 
 ## About
-This is my Hello World webpage created for my web development lab. 
-It has more than 3 commits
+
+This is the portfolio of Natalia Torres, a senior at Michigan State University studying Information Science focused on Human-Centered Technology.
+
+## Files
+
+index.html: the website
+CONTENT.md: the written content for each section
+image.png: my logo
+ToMo.png: ToMo's App logo
