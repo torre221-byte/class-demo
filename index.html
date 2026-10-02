@@ -7,50 +7,126 @@
 </head>
 <body>
   <header> 
-    <a href="#"><img src="image.png" alt="Natalia's Logo" width="400"></a> 
+    <a href="#" aria-label="Natalia Torres home">
+    <img src="image.png" alt="Natalia's Logo" width="400"></a> 
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>    
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
   </header>
   <main>
-    <section>
-        <h1>Natalia is an aspiring UX designer focused on creating human-centered experiences.</h1>
-    </section>
-   <section id="about">
-    <h2>About</h2>
-    <p> I am a student at <a href="https://msu.edu/">Michigan State University</a>,
-        studying Information Science with a focus in Human-Centered Technology.</p>
+    <section aria-labelledby="intro-heading">
+            <h1 id="intro-heading">
+                Natalia is an aspiring UX designer focused on creating human-centered experiences.
+            </h1>
 
-    <p>I am interested in UX research, interaction design, and creating
-        technology that is useful and easy to understand. I enjoy learning
-        about how people interact with technology and using those insights
-        to improve their experiences.</p>
+            <p>
+                I am interested in understanding people, exploring problems, and using technology
+                to create experiences that are useful and easy to understand.
+            </p>
+        </section>
 
-    <p>Outside of school, I enjoy exploring new ideas, traveling, and working
-        on projects that combine creativity and technology.</p>
-</section>
-    <section id="projects">
-        <h2>Projects</h2>
+
+    <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About</h2>
+
+            <p>
+                I am a student at
+                <a href="https://msu.edu/">Michigan State University</a>,
+                studying Information Science with a focus in Human-Centered Technology
+                and a minor in Entrepreneurship.
+            </p>
+
+            <p>
+                What interests me most about UX is the opportunity to understand
+                why people do what they do. I like observing how people interact
+                with technology, finding the parts that are confusing or frustrating,
+                and thinking about how those experiences could be improved.
+            </p>
+
+            <p>
+                I am still exploring exactly where I want to take my career,
+                but I know I want to work at the intersection of people,
+                technology, and creativity. I enjoy projects where I can research
+                a problem, experiment with ideas, and turn what I learn into
+                something people can actually use.
+            </p>
+
+            <p>
+                Outside of school, I enjoy traveling, exploring new ideas,
+                and working on projects that combine creativity and technology.
+            </p>
+        </section>
+    <section id="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">What I Like to Work With</h2>
+
+            <ul>
+                <li>UX Research</li>
+                <li>Interaction Design</li>
+                <li>User-Centered Design</li>
+                <li>Prototyping</li>
+                <li>Technology</li>
+                <li>Creative Problem Solving</li>
+            </ul>
+        </section>
+    
+    <section id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Projects</h2>
         <article>
             <h3>ToMo</h3>
-            <p>A time management app designed to help people reduce phone addiction, stop procrastination, and stay productive</p>
-            <p>This is a solo personal project. I handled the whole design process
-            myself, from the first idea to a working prototype.</p>
-            <a href="#"><img src="ToMo.png" alt="ToMo's Logo" width="150"></a>
+            <figure>
+    <img src="ToMo.png" alt="ToMo's Logo" width="150">
+    <figcaption>ToMo — a time management app focused on reducing phone distraction.</figcaption>
+            </figure>
 
+            <p>A time management app designed to help people reduce phone addiction, stop procrastination, and stay productive</p>
+            <p>This is a personal project where I explored the problem,
+            developed the concept, worked on the branding, and created a working prototype.</p>
+            
+                         <details>
+                            <summary>Why I made ToMo</summary>
+                            <p>Many of us pick up our phones to do one thing and end up losing
+                            an hour. I wanted to design an app that works with people's habits
+                            instead of against them.</p>
+                        </details>
+
+            <h4>What I explored</h4>
+                        <ul>
+                            <li>How phone use can interfere with productivity</li>
+                            <li>How productivity tools can feel too restrictive</li>
+                            <li>How social features could make productivity more engaging</li>
+                            <li>How a focus session could help users become more aware of their habits</li>
+                        </ul>
+
+                        <details>
+                            <summary>What I learned</summary>
+                            <p> Working on ToMo helped me understand that designing an
+                                experience is not only about making something look good.
+                                It is also about understanding the problem, thinking about
+                                people's behaviors, and making decisions based on what
+                                users actually need!
+                            </p>
+                        </details>
+                <p>
+                    <a href="#">View ToMo project</a>
+                </p>
+            
         </article>
         <article>
             <h3>More projects coming soon!</h3>
-            <p>I am working on new projects and will add them here.</p>
+            <p>I am working on new projects that explore UX,
+            technology, and human-centered design. I will add more
+            projects here as I develop them.</p>
 
         </article>
+
     </section>
-    <section id="contact">
-        <h2>Contact</h2>
+    <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Let's Connect!</h2>
         <address>
             <p> Personal: nataliatomo@hotmail.com</p>
             <p> School: torre221@msu.edu</p>
@@ -60,7 +136,10 @@
     </section>
   </main>
   <footer>
-    <p>Copyright &copy; 2026 Natalia Torres</p>
+    <nav aria-label="Footer navigation">
+        <a href="#top">Back to top</a>
+    </nav>
+    <p><small>Copyright &copy; 2026 Natalia Torres</small></p>
   </footer>
 
 </body>
